@@ -2,7 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: "https://practicesoftwaretesting.com/",
+    baseUrl: "https://qauto.forstudy.space/",
     viewportWidth: 1440,
     viewportHeight: 900,
     defaultCommandTimeout: 10000,
