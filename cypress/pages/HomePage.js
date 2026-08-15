@@ -9,6 +9,8 @@ export const homePage = {
         signInButton: 'button.header_signin',
     },
 
+    signUpButton: 'div.hero-descriptor button.hero-descriptor_btn',
+
     footer: {
         facebookLink: 'a[href*="facebook.com/Hillel.IT.School"]',
         telegramLink: 'a[href*="t.me/ithillel_kyiv"]',
