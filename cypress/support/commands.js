@@ -16,7 +16,7 @@ Cypress.Commands.overwrite('type', (originalFn, element, text, options) => {
 });
 
 Cypress.Commands.add('login', (email, password) => {
-    cy.visit('https://qauto.forstudy.space/', {
+    cy.visit('/', {
         auth: {
             username: 'guest',
             password: 'welcome2qauto'

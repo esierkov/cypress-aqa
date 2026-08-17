@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "cy:run:qauto": "cypress run --env environment=qauto",
+    "cy:run:qauto2": "cypress run --env environment=qauto2"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/esierkov/cypress-aqa#readme",
   "devDependencies": {
-    "cypress": "^15.18.1"
+    "cypress": "^15.18.1",
+    "mochawesome": "^8.0.1"
   }
 }
